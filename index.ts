@@ -3,7 +3,7 @@ import type { Element } from 'hast';
 import { hasProperty } from 'hast-util-has-property';
 
 const rephyTargetBlank = () => {
-  return (tree: Element) => {
+  return (tree: any) => {
     visit(tree, 'element', (node) => {
       if (hasProperty(node, 'target')) {
         return;
