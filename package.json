@@ -1,6 +1,6 @@
 {
   "name": "rehype-target-blank",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "description": "Rehype plugin to set the target of <a/> to _blank.",
   "keywords": [
