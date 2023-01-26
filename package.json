@@ -1,6 +1,6 @@
 {
   "name": "rehype-target-blank",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "description": "Rehype plugin to set the target of <a/> to _blank.",
   "keywords": [
@@ -24,7 +24,13 @@
   "dependencies": {
     "@types/hast": "^2.3.4",
     "hast-util-has-property": "^2.0.1",
-    "typescript": "^4.9.4",
     "unist-util-visit": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/tape": "^4.13.2",
+    "hastscript": "^7.2.0",
+    "rehype": "^12.0.1",
+    "typescript": "^4.9.4",
+    "unist-builder": "^3.0.1"
   }
 }
