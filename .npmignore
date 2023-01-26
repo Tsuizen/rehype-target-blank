@@ -1,0 +1,4 @@
+*.js
+test.ts
+tsconfig.json
+node_modules/
