@@ -8,7 +8,12 @@ const rephyTargetBlank = () => {
       if (hasProperty(node, 'target')) {
         return;
       }
-      node.properties!.target = '_blank';
+
+      const props = node.properties || {};
+      const href = props.href?.toString();
+      if (href?.startsWith('http') || href?.startsWith('https')) {
+        props.target = '_blank';
+      }
     });
   };
 };
