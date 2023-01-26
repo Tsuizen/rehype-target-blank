@@ -4,7 +4,3 @@
 *.js
 
 *.d.ts
-
-tsconfig.json
-
-test.ts
