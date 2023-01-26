@@ -2,7 +2,7 @@
   "name": "rephy-target-blank",
   "version": "1.0.0",
   "type": "module",
-  "description": "Set the target of <a/> to _blank.",
+  "description": "Rehype plugin to set the target of <a/> to _blank.",
   "keywords": ["rehype"],
   "main": "index.js",
   "scripts": {
