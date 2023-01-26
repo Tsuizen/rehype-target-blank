@@ -1,9 +1,9 @@
 import { visit } from 'unist-util-visit';
-import type { Root } from 'hast';
+import type { Element } from 'hast';
 import { hasProperty } from 'hast-util-has-property';
 
 const rephyTargetBlank = () => {
-  return (tree: Root) => {
+  return (tree: Element) => {
     visit(tree, 'element', (node) => {
       if (hasProperty(node, 'target')) {
         return;
